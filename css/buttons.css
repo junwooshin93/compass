@@ -1,0 +1,23 @@
+.css-buttons {
+    margin-top: 50px;
+}
+
+.css-confirm,
+.css-loeschen {
+    width: 200px;
+    padding: 15px 0px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 10px 0px white;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.css-confirm:hover,
+.css-loeschen:hover {
+    color: palevioletred;
+    box-shadow: 0px 0px 10px 3px palevioletred;
+}

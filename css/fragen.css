@@ -1,0 +1,56 @@
+.css-fragen,
+.css-fragen__title,
+.css-fragen__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.css-fragen {
+    margin-top: 40vh;
+}
+
+.css-fragen__title {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px yellow;
+    background-color: transparent;
+}
+
+.css-fragen__answer {
+    margin-top: 30px;
+    font-size: 24px;
+    width: 400px;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px 0px white;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.css-fragen__answer:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    padding: 10px 5px;
+    width: 600px;
+    transform: translateY(-5px);
+}
+
+.css-fragen__answer:hover {
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+.show {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
